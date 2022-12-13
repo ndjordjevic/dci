@@ -1,0 +1,48 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+*.test
+*.prof
+*.pdf
+
+output/
+.idea
+.vscode
+/StackTemplatePackaged.yml
+/StackTemplateConfiguration.json
+.DS_Store
+
+__pycache__
+env
+/cmd/end-to-end-tests/.env
+cmd/income/.python-version
+
+# Terraform generated files #
+#############################
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.terraform.tfstate.lock.info
+
+.env
+
+.jfrog/
